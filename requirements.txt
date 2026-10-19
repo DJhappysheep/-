@@ -1,0 +1,7 @@
+# 初中英语错题工具 - 依赖列表
+# 用法：pip install -r requirements.txt
+
+streamlit>=1.30.0        # Web 界面框架
+requests>=2.31.0        # 调用智谱 API
+Pillow>=10.0.0          # 图片压缩处理
+python-dotenv>=1.0.0    # 读取 .env 文件里的 API key

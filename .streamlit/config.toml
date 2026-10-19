@@ -1,0 +1,17 @@
+# Streamlit 全局主题配置
+# 统一配色、字体，并精简右上角工具栏，让界面更像正式产品
+
+[theme]
+base = "light"
+primaryColor = "#3B6EF6"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F6F7FB"
+textColor = "#1F2733"
+font = "sans serif"
+
+[client]
+# minimal：隐藏右上角菜单/Deploy 按钮，保留界面干净
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,9 @@
+# 保护 API key 不被泄露
+.env
+# 保护上传的图片
+uploads/
+# Python 缓存
+__pycache__/
+*.pyc
+# 数据库
+*.db
